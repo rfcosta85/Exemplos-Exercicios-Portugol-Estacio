@@ -6,6 +6,7 @@ programa
 		/*
 		 * Exemplo meses do ano
 		 * Aula 06 - Construir um algoritmo que imprimi o mes equivalente ao número digitado pelo usuário
+		 * versão 2.0
 		 */
 
 		 cadeia mes = ""
@@ -13,59 +14,88 @@ programa
 
 		 escreva("Informe o número do mês: ")
 		 leia(numero)
+		 escolha(numero)
+		 {
+		 	caso 1:
+		 	{
+		 		mes = "Janeiro"
+		 		pare;
+		 	}
 
-		 se(numero == 1)
-		 {
-		 	mes = "Janeiro"
-		 }senao se(numero == 2)
-		 
-		 {
-		 	mes = "Fevereiro"	 
-		 }senao se(numero == 3)
+		 	caso 2:
+		 	{
+				mes = "Fevereiro"
+				pare;
+		 	}
 
-		 {
-		 	mes = "Março"
-		 }senao se(numero == 4)
+		 	caso 3:
+		 	{				
+		 		mes = "Março"
+		 		pare;
+		 	}
 
-		 {
-		 	mes = "Abril"
-		 }senao se(numero == 5)
+		 	caso 4:
+		 	{
+				mes = "Abril"
+				pare;
+		 	}
 
-		 {
-		 	mes = "Maio"
-		 }senao se(numero == 6)
+		 	caso 5:
+		 	{
+				mes = "Maio"
+				pare;
+		 	}
 
-		 {
-		 	mes = "Junho"
-		 }senao se(numero == 7)
+		 	caso 6:
+			{
+				mes = "Junho"
+				pare;
+			}
 
-		 {
-		 	mes = "Julho"
-		 }senao se(numero == 8)
+			caso 7:
+			{
+				mes = "Julho"
+				pare;
+			}
 
-		 {
-		 	mes = "Agosto"
-		 }senao se(numero == 9)
+			caso 8:
+			{
+				mes = "Agosto"
+				pare;
+			}
 
-		 {
-		 	mes = "Setembro"
-		 }senao se(numero == 10)
+			caso 9:
+			{
+				mes = "Setembro"
+				pare;
+			}
 
-		 {
-		 	mes = "Outubro"
-		 }senao se(numero == 11)
+			caso 10:
+			{
+				mes = "Outubro"
+				pare;	
+			}
 
-		 {
-		 	mes = "Novembro"
-		 }senao se(numero == 12)
+			caso 11:
+			{
+				mes = "Novembro"
+				pare;
+			}
 
-		 {
-		 	mes = "Dezembro"
-		 }senao
-		 {
-		 	mes = "Inválido"
-		 }
+			caso 12:
+			{
+				mes = "Dezembro"
+				pare;
+			}
 
+			caso contrario:
+			{
+				mes = "Inválido"
+				
+			}		 	
+		 		
+		 }		 
+		
 		 se(mes == "Inválido")
 		 {
 		 	escreva("Mês inválido")
@@ -80,7 +110,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1062; 
+ * @POSICAO-CURSOR = 1019; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
