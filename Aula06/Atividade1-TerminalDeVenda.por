@@ -91,17 +91,12 @@ programa
 
 		 	caso contrario:
 		 	{
-		 		escreva("Opção Inválida!")
+		 		pedido = "Pedido Inválido"
 		 		pare;
 		 	}
 		 }
-		 limpa()
+		 limpa()		 
 		 
-		 se(opcao <100 e opcao > 105)
-		 {
-		 	escreva("Opção Inválida!")
-		 }senao
-		 {
 		 	escreva("Resumo do Pedido\n")
 		 escreva("================\n")
 		 escreva("Produto: ", pedido,"\n")
@@ -109,7 +104,7 @@ programa
 		 escreva("Total de itens: ", quantidade, "\n")
 		 escreva("Valor total a pagar: R$", precoTotal,"\n")
 		 
-		 }		 
+		 		 
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -117,7 +112,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1708; 
+ * @POSICAO-CURSOR = 2179; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {opcao, 18, 11, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
