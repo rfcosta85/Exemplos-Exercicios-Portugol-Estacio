@@ -7,7 +7,7 @@ programa
 		/*
 		 *  Receba uma sequência de números informado pelo usuário e, para cada número, dizer se ele é par ou ímpar. 
 		 *  Quando o usuário quiser interromper a sequência, ele informará o número -1.
-		 *   Aula 07: Estrutura de repetição com pré teste e com pós teste
+		 *  Aula 07: Estrutura de repetição com pré teste e com pós teste
 		 */
 
 		 inteiro numero
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 239; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
