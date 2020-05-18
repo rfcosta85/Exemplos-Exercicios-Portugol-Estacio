@@ -45,7 +45,7 @@ programa
 		 		escreva(idade, " anos - Categoria: Adulto\n")
 		 	}senao
 		 	{
-		 		escreva(idade, " anos - Categoria: Adulto\n")
+		 		escreva(idade, " anos - Categoria: Senior\n")
 		 	}
 
 		 	escreva("\nPara sair digite -1: ")
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 78; 
+ * @POSICAO-CURSOR = 1245; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
