@@ -13,14 +13,14 @@ programa
 		 inteiro peso = 1, idade, totalPessoas = 0
 		 real pesoMedio = 0.0, totIdadeMedia = 0.0, idadeMedia = 0.0, totPesoMedio = 0.0
 		 
-		 escreva("===========\n")
-		 escreva("Senso Bangu\n")
-		 escreva("===========\n")
+		
 
 		 enquanto(peso !=0)
 		 {
-
 			limpa()
+			escreva("===========\n")
+		 	escreva("Senso Bangu\n")
+		 	escreva("===========\n")
 			escreva("Digite o seu peso: ")
 			leia(peso)
 			totPesoMedio += peso
@@ -48,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 771; 
+ * @POSICAO-CURSOR = 751; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
