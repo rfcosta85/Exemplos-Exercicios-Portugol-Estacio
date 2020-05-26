@@ -9,21 +9,24 @@ programa
 		 * Aula 08: Estrutura de repetição com variável de controle		 
 		 */
 
-		 inteiro numero, fatorial, contador
+		 inteiro numero, fatorial = 0, contador, totFatorial = 1, diferencial = 1
 		 
 		 escreva("Calculo Fatorial\n")
 		 escreva("Digite um número: ")
-		 leia(numero)		 
+		 leia(numero)			 
+
+		 fatorial = numero * (numero - 1)
 		 
 
-		 para(contador = numero ; contador >= 1; contador --)
+		 para(numero = numero - 2 ; numero >= 1; numero --)
 		 {
 
-			fatorial = numero * contador
+				fatorial *= numero	
 			
-			escreva("\n",numero," * ", contador, " = ", fatorial , "\n")			
-		 	
-		 }
+		 }	
+
+		 escreva(fatorial)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,9 +34,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 518; 
+ * @POSICAO-CURSOR = 526; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {fatorial, 12, 19, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
