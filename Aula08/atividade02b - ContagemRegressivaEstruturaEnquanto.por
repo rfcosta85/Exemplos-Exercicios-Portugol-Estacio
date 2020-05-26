@@ -16,12 +16,10 @@ programa
 		 escreva("Digite um número: ")
 		 leia(numero)
 
-		 escreva(numero)
-
 		 enquanto(numero >= 0)
 		 {
 		 	
-		 	escreva(numero, "\n")
+		 	escreva("\n",numero, "\n")
 		 	numero --
 		 }
 	}
@@ -31,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 701; 
+ * @POSICAO-CURSOR = 549; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
