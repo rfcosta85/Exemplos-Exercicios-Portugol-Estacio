@@ -9,7 +9,7 @@ programa
 		 * Aula 08: Estrutura de repetição com variável de controle		 
 		 */
 
-		 inteiro numero, fatorial = 0, contador, totFatorial = 1, diferencial = 1
+		 inteiro numero, fatorial = 04
 		 
 		 escreva("Calculo Fatorial\n")
 		 escreva("Digite um número: ")
@@ -34,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 526; 
+ * @POSICAO-CURSOR = 256; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {fatorial, 12, 19, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
