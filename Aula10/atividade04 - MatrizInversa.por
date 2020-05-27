@@ -25,7 +25,22 @@ programa
 			para(inteiro j = 0; j <= 3; j++)
 			{
 				escreva(matriz1[i][j]," ")
+				
 			}
+
+			escreva("\n")
+		}
+
+		escreva("\n")
+
+		para(inteiro indI = 0; indI <= 3; indI++)
+		{
+			para(inteiro indJ = 0; indJ <=3; indJ++)
+			{
+				matriz2[indI][indJ] = matriz1[indJ][indI]
+				escreva(matriz2[indI][indJ]," ")
+			}
+			escreva("\n")
 		}
 				 
 	}
@@ -35,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 720; 
+ * @POSICAO-CURSOR = 750; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
