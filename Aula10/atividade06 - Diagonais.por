@@ -50,7 +50,7 @@ programa
 		 		}
 
 		 		escreva("[",m1[0][0],",",m2[0][0],"] ")
-		 		escreva("[",m1[1][1],",",m2[1][1],"] ")
+		 		
 		 	}
 
 		 	escreva("\n")
@@ -62,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1457; 
+ * @POSICAO-CURSOR = 1425; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
