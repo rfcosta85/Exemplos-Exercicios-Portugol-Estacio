@@ -30,8 +30,10 @@ programa
 		 	
 		 	para(inteiro j = 0; j <= 3; j++)
 		 	{
-		 		escreva("[",produto[i][j],"]")
+		 		escreva("[",produto[i][j],"] ")
 		 	}
+
+		 	escreva("\n")
 		 }
 		 
 	}
@@ -41,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 762; 
+ * @POSICAO-CURSOR = 763; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
