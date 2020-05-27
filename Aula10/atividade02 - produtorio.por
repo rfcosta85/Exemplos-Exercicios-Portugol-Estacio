@@ -30,7 +30,7 @@ programa
 		 	
 		 	para(inteiro j = 0; j <= 3; j++)
 		 	{
-		 		escreva(produto[i][j]," - ")
+		 		escreva("[",produto[i][j],"]")
 		 	}
 		 }
 		 
