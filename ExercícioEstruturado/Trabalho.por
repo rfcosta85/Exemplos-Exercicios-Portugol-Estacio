@@ -11,27 +11,32 @@ programa
 		real precoFinalAr = (preco * arCondicionado) + preco
 		real precoFinalHidraulica = (preco * hidraulica) + preco
 		real precoFinalCompleto = (precoComIpi + (precoComIpi * trioEletrico) + (preco * arCondicionado) + (preco * hidraulica)) * desconto + precoComIpi
-		cadeia resposta = "S"		
+		cadeia resposta = "S"
+				
 		
-		escreva("------------------------------------------\n")
-		escreva("Fábrica de Automóvel Estácio\n")
-		escreva("Estacio Car 2020\n")
-		escreva("------------------------------------------\n")
-		escreva("O modelo conta com 4 opções de utilitários\n")
-		escreva("Modelos:\n")
-		escreva("-------------------------------------------\n")
-		escreva("0- Básico\n")
-		escreva("1- Trio elétrico\n")
-		escreva("2- Ar condicionado\n")
-		escreva("3- Direção Hidráulica\n")
-		escreva("4- Completo\n")
-		escreva("-------------------------------------------\n")
+		
 		faca
 		{
+
+			limpa()
 			
+			escreva("------------------------------------------\n")
+			escreva("Fábrica de Automóvel Estácio\n")
+			escreva("Estacio Car 2020\n")
+			escreva("------------------------------------------\n")
+			escreva("O modelo conta com 4 opções de utilitários\n")
+			escreva("Modelos:\n")
+			escreva("-------------------------------------------\n")
+			escreva("0- Básico\n")
+			escreva("1- Trio elétrico\n")
+			escreva("2- Ar condicionado\n")
+			escreva("3- Direção Hidráulica\n")
+			escreva("4- Completo\n")
+			escreva("-------------------------------------------\n")
 		
 		escreva("Escolha a sua opção: ")		
 		leia(modelo)
+		limpa()
 		
 		escolha(modelo)
 		{
@@ -61,8 +66,8 @@ programa
 			{
 				
 				escreva("Ar Condicionado.\n")
-				escreva("Esse modelo conta com Alarme, Vidro elétrico e Tranca elétrica.\n")
-				escreva("Mais segurança e comodidade para o seu veículo.\n")
+				escreva("Esse modelo conta com Ar condicionado.\n")
+				escreva("Dirija sem se preocupar com o calor externo.\n")
 				escreva("---------------------------------------------------------------\n")
 								
 				
@@ -98,7 +103,7 @@ programa
 		}
 
 			escreva("\nDeseja simular outro modelo (S/N)? ")
-			leia(resposta)
+			leia(resposta)			
 		}enquanto(resposta != "N")		
 	}
 }
@@ -107,7 +112,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 582; 
+ * @POSICAO-CURSOR = 644; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
